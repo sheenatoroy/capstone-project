@@ -1,0 +1,97 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+/*open sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error{
+
+    color: red;
+}
+
+.header-container{
+
+    padding: 20px 20px;
+}
+
+.profile-image-pic{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.cardbody-color{
+    background-color: #ffffff;
+    
+}
+
+.card-title h1{
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.5rem;
+    margin-top: -4%;
+}
+
+.card-title p{
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 300;
+}
+
+.btn{
+    background-color: #ED661D;
+    color: #fff;
+    border-radius: 18px;
+    width: 45%;
+   
+    
+}
+
+.btn:hover{
+
+    background-color: #c44400;
+    color: #fff;
+}
+
+.input-group-text{
+
+    background-color: white;
+ 
+    
+}
+
+.input-group-text i{
+
+    size: 1rem;
+}
+
+.forgot-password a{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80%;
+    margin-bottom: 3%;
+    
+}
+
+@media (max-width: 992px) and (min-width: 300px) {
+
+    .forgot-password a{
+
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 3%;
+        margin-left: 40%;
+      
+        
+    }
+}
